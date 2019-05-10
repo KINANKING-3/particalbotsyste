@@ -67,8 +67,8 @@ client.on('ready', () => {
 client.on('message', message => {
   if (message.content === 'creator') {
 	  
-    message.author.send(` bot creator @! Blu4eHuler .., EL#3678 + @♪Kreem#7582 `);
-	message.react('🎉');
+    message.author.send(` Bot Creator UnknownYTv2#5784 `);
+	message.react('💻');
   }
 });
 
@@ -85,7 +85,17 @@ client.on('message', msg => {
 
 
 
+client.on('ready', () => {
+  console.log(`Welcome Bro ${client.user.tag}!`);
+});
 
+client.on('message', message => {
+  if (message.content === '_Support') {
+	  
+    message.author.send(` Server Support https://discord.gg/yGva2J `);
+	message.react('✉');
+  }
+});
 
 
 
@@ -110,7 +120,7 @@ client.on('ready', () => {
 });
 client.on('ready', function(){
     var ms = 100000 ;
-    var setGame = [`#help `,`_inv`,`Made By ! Blu4eHuler .., EL#3678`,`Bot Problem ? Kreem,ᴿₐᵛ..,#7582`];
+    var setGame = [`#help `,`_inv`,`Made By UnknownYTv2#5784`,`Bot Problem ? Type _Support`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -140,6 +150,7 @@ client.on("message", message => {
          _ask : البوت يسئلك اسئلة
          #server : احصائيات السيرفر
          ------------------------------
+         _avatar : لافاتار اي شخص موجود
          _ban : حظر العضو من السيرفر
          _kick : طرد العضو من السيرفر
          #clear : مسح الشات
@@ -149,6 +160,7 @@ client.on("message", message => {
          ------------------------------
          #guilds : عدد سيرفر البوت
          _inv : دعوه البوت الى سيرفر
+         _Support : سيرفر الدعم لو واجهتك مشاكل في البوت
          #help : عرض هذه الرسالة
          ------------------------------
          
@@ -156,7 +168,8 @@ client.on("message", message => {
    message.author.sendEmbed(embed)
    
    }
-   });  
+   });   
+
 client.on('message', message => {
      if (message.content === (prefix + "help")) {
      let embed = new Discord.RichEmbed()
@@ -358,7 +371,7 @@ if (message.content.startsWith(prefix +"cv")) {
 client.on('message', message => {
   if (true) {
 if (message.content === '_inv') {
-      message.author.send('https://discordapp.com/api/oauth2/authorize?client_id=449359611036827663&permissions=8&scope=bot').catch(e => console.log(e.stack));
+      message.author.send('https://discordapp.com/api/oauth2/authorize?client_id=439455097097814017&permissions=8&scope=bot').catch(e => console.log(e.stack));
 
     }
    } 
