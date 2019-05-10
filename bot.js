@@ -99,21 +99,6 @@ client.on('message', message => {
 
 
 
-client.on('message', message => {
-    if (message.guild) return undefined;
-    var roomid = "576151498166239255";
-    var room = client.channels.get(roomid);
-    if (!room) return undefined;
-    var emb = new Discord.RichEmbed()
-    .setColor("#36393e")
-    .setAuthor(message.author.username,message.author.displayAvatarURL)
-    .setDescription(**Message from ${message.author} in the bot dm**\n\``apache\nMessage; ${message.content}````)
-    .setThumbnail(message.author.displayAvatarURL)
-    .setTimestamp();
-    room.send(emb);
-});
-
-
 
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
