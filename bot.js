@@ -67,7 +67,7 @@ client.on('ready', () => {
 client.on('message', message => {
   if (message.content === 'creator') {
 	  
-    message.author.send(` bot creator @! Blu4eHuler .., EL#3678 + @♪Kreem#7582 `);
+    message.author.send(` bot creator `);
 	message.react('🎉');
   }
 });
@@ -84,6 +84,53 @@ client.on('message', msg => {
 });
 
 
+
+client.on('message', msg => {
+  if (msg.content === '_support') {
+    msg.reply('Server Support https://discord.gg/3c9EvPs');
+    message.author.sendEmbed(embed)
+    message.react('🛠');
+  }
+});
+
+
+
+
+client.on('message', msg => {
+  if (msg.content === '_Support') {
+    msg.reply('Server Support https://discord.gg/3c9EvPs');
+    message.author.sendEmbed(embed)
+    message.react('🛠');
+  }
+});
+
+
+
+
+client.on('message', msg => {
+  if (msg.content === 'creator') {
+    msg.reply('Bot Creator UnknownYTv2#5784');
+    message.author.sendEmbed(embed)
+    message.react('🛠');
+  }
+});
+
+
+
+
+
+
+client.on('ready', () => {
+  console.log(`Welcome Bro ${client.user.tag}!`);
+});
+
+client.on('message', message => {
+  if (message.content === '#friend') {
+	  
+    message.author.send(` tawfeeqkh is My Best Friend `);
+	message.react('💞');
+  }
+});
 
 
 
@@ -110,7 +157,7 @@ client.on('ready', () => {
 });
 client.on('ready', function(){
     var ms = 100000 ;
-    var setGame = [`#help `,`_inv`,`Made By ! Blu4eHuler .., EL#3678`,`Bot Problem ? Kreem,ᴿₐᵛ..,#7582`];
+    var setGame = [`#help `,`_inv`,`Made By UnKnownYTv2#5784`,`Bot Problem Type _support`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -358,7 +405,7 @@ if (message.content.startsWith(prefix +"cv")) {
 client.on('message', message => {
   if (true) {
 if (message.content === '_inv') {
-      message.author.send('https://discordapp.com/api/oauth2/authorize?client_id=449359611036827663&permissions=8&scope=bot').catch(e => console.log(e.stack));
+      message.author.send('https://discordapp.com/api/oauth2/authorize?client_id=439455097097814017&permissions=0&scope=bot').catch(e => console.log(e.stack));
 
     }
    } 
